@@ -13,15 +13,21 @@ assignees: ''
 <!--- and wrap the Description at 72 characters.                     -->
 <!--- A clear and concise description of what the bug is         -->
 
+## Drivers to be used
+First bad driver:
+Last good driver:
+
 
 ## Violating commit
 <!--- The hash number of the commit, if one was detected  -->
+<!--- If a violating commit is not available, please provide a set of potential commits  -->
 
-## Steps To Reproduce (reduced, if possible)
+## Steps to reproduce with option reduction 
 <!--- Steps to reproduce the behaviour  -->
+<!--- Please reduce the options, if possible -->
 
 ## Detailed description of the error/problem
-<!--- A clear but detailed description of of the problem -->
+<!--- A clear but detailed description of the problem -->
 
 ## Expected behaviour
 <!--- A clear and concise description of what you expected to happen -->
