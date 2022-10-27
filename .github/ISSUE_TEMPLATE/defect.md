@@ -2,7 +2,7 @@
 name: Defect
 about: 'This is to report a compiler defect '
 title: ''
-labels: ''
+labels: bug
 assignees: ''
 
 ---
