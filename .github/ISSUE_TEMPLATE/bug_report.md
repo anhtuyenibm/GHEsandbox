@@ -29,3 +29,9 @@ OS:
 
 **Additional context**
 Add any other context about the problem here.
+
+## Description
+<!--- Title/Description will be Subject/Body of commit message.      -->
+<!--- Please be concise and limit the subject line to 50 characters, -->
+<!--- and wrap the Description at 72 characters.                     -->
+<!--- Describe why this is required, what problem it solves.         -->
