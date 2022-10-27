@@ -1,6 +1,6 @@
 ---
 name: Defect
-about: 'Compiler Defect '
+about: 'This is to report a compiler defect '
 title: ''
 labels: ''
 assignees: ''
