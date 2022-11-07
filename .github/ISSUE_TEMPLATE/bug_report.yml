@@ -1,7 +1,8 @@
 name: Bug report
 description: Create a report to help us improve
 labels: [ "bug" ]
-title: "What the hell"
+title: 
+    required: true
 body:
     -   type: checkboxes
         id: before-posting
