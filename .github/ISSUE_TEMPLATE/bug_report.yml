@@ -65,28 +65,29 @@ body:
     -   type: input
         id: android-version
         attributes:
-            label: Android version
+            label: Compiler version
         validations:
             required: true
     -   type: input
-        id: device-model
+        id: Platform
         attributes:
-            label: Device brand and model
+            label: Platform
         validations:
             required: true
     -   type: dropdown
         id: stock-or-custom
         attributes:
-            label: Stock or custom OS?
+            label: OS?
             options:
-                - Stock
-                - Custom (explain in "additional information")
+                - Linux on Power
+                - AIX
+                - z/OS
         validations:
             required: true
     -   type: input
         id: app-version
         attributes:
-            label: Nextcloud android app version
+            label: PTF version
             description: Check the _About_ section in the Settings screen
         validations:
             required: true
@@ -113,7 +114,7 @@ body:
     -   type: textarea
         id: android-logs
         attributes:
-            label: Android logs
+            label: Logs
             description: |
                 Please **drop a log file** here.
                 Log file can be obtained:
@@ -123,7 +124,7 @@ body:
     -   type: textarea
         id: server-logs
         attributes:
-            label: Server error logs
+            label: Server error
             description: Paste your server error logs here if available. Will be automatically formatted.
             render: bash
     -   type: textarea
